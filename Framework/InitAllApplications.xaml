@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1408.8,4614.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2433,4582</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Initialization_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -88,36 +88,36 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="603.2,4549.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+  <Sequence sap2010:Annotation.AnnotationText="Open applications used in the process and do necessary initialization procedures (e.g., login)." DisplayName="Initialize All Applications" sap:VirtualizedContainerService.HintSize="591,4517" sap2010:WorkflowViewState.IdRef="Sequence_9">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log message (Initialize applications)" sap:VirtualizedContainerService.HintSize="540.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening applications...&quot;]" />
-    <Sequence DisplayName="Ingresar a Netac03" sap:VirtualizedContainerService.HintSize="540.8,2244" sap2010:WorkflowViewState.IdRef="Sequence_19">
+    <ui:LogMessage DisplayName="Log message (Initialize applications)" sap:VirtualizedContainerService.HintSize="529,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Opening applications...&quot;]" />
+    <Sequence DisplayName="Ingresar a Netac03" sap:VirtualizedContainerService.HintSize="529,2198" sap2010:WorkflowViewState.IdRef="Sequence_19">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Se ingresa a NetAct03&quot;]" />
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="478.4,1354.4" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" NewSession="True" Url="https://osame001lb.netact03.mnc140.mcc334.3gppnetwork.org/authentication/Login">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="467,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Se ingresa a NetAct03&quot;]" />
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="467,1311" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" NewSession="True" Url="https://osame001lb.netact03.mnc140.mcc334.3gppnetwork.org/authentication/Login">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="444.8,1116.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1114" sap2010:WorkflowViewState.IdRef="Sequence_14">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  login:username'" sap:VirtualizedContainerService.HintSize="382.4,188" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="videowall">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  login:username'" sap:VirtualizedContainerService.HintSize="354,187" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="videowall">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9bd4c051-acdc-4480-937e-4c6f827f253a" InformativeScreenshot="3fcbe6f0b8cfd888feb9b1bf76fb67c1" Selector="&lt;webctrl tag='INPUT' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;input' parentid='login' parentname='login' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -129,7 +129,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'INPUT  login:password'" sap:VirtualizedContainerService.HintSize="382.4,188" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="Altan.2024">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'INPUT  login:password'" sap:VirtualizedContainerService.HintSize="354,187" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="Altan.2024">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d9f74d5e-4107-4efb-8385-b2f5358a3e88" InformativeScreenshot="8a6e471e63b3e36eeab1f824aed3dfd2" Selector="&lt;webctrl tag='INPUT' type='password' id='login:password' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -141,7 +141,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:loginButton'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:loginButton'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -163,13 +163,13 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="382,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-              <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+              <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
                 <ui:UiElementExists.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3989ff4-fc11-4f7a-b2fd-cca873956d7a" InformativeScreenshot="fcb0bbed1d9b5fe060ad9826ff4fcc56" Selector="&lt;webctrl tag='INPUT' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
                 </ui:UiElementExists.Target>
               </ui:UiElementExists>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -191,7 +191,7 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="Delay_2" />
             </Sequence>
           </ActivityAction>
         </ui:OpenBrowser.Body>
@@ -202,16 +202,16 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:OpenBrowser>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Nokia_Reporting workflow" sap:VirtualizedContainerService.HintSize="478.4,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Web\Nokia_Reporting.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Nokia_Reporting workflow" sap:VirtualizedContainerService.HintSize="467,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Web\Nokia_Reporting.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <OutArgument x:TypeArguments="x:String" x:Key="out_LastPath_IBCF">[out_LastPathIBCF]</OutArgument>
           <OutArgument x:TypeArguments="x:String" x:Key="out_LastPath_MT">[out_LastPathMT]</OutArgument>
           <OutArgument x:TypeArguments="x:String" x:Key="out_LastPath_Capacity">[out_LastPathCapacity]</OutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <ui:CloseApplication DisplayName="Close Application 'DIV  calypso-container'" sap:VirtualizedContainerService.HintSize="478.4,139.2" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
+      <ui:CloseApplication DisplayName="Close Application 'DIV  calypso-container'" sap:VirtualizedContainerService.HintSize="467,139" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
         <ui:CloseApplication.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ff9a0699-860f-4310-86e2-50c2488581ff" InformativeScreenshot="9f62a689bc13bd17969307d2b17a5513" Selector="&lt;html app='msedge.exe' title='NetAct™ Start Page*' /&gt;&lt;webctrl tag='DIV' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ff9a0699-860f-4310-86e2-50c2488581ff" InformativeScreenshot="9f62a689bc13bd17969307d2b17a5513" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Performance Manager+ - osame001 - videowall y 1 página más - Tra*' /&gt;&lt;ctrl name='Performance Manager+ - osame001 - videowall: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Cerrar' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -221,10 +221,10 @@
           </ui:Target>
         </ui:CloseApplication.Target>
       </ui:CloseApplication>
-      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="478.4,166.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="firefox" />
-      <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="Delay_5" />
+      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="467,165" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="msedge" />
+      <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="467,113" sap2010:WorkflowViewState.IdRef="Delay_5" />
     </Sequence>
-    <Sequence DisplayName="Ingresa Netac02" sap:VirtualizedContainerService.HintSize="501,2011" sap2010:WorkflowViewState.IdRef="Sequence_17">
+    <Sequence DisplayName="Ingresa Netac02" sap:VirtualizedContainerService.HintSize="529,2027" sap2010:WorkflowViewState.IdRef="Sequence_17">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -232,20 +232,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="467,173" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;Se ingresa a NetAct02&quot;]" />
-      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="467,1283" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" NewSession="True" Url="https://osnme001lb.netact02.mnc140.mcc334.3gppnetwork.org/authentication/Login">
+      <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="467,1271" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" NewSession="True" Url="https://osnme001lb.netact02.mnc140.mcc334.3gppnetwork.org/authentication/Login">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1086" sap2010:WorkflowViewState.IdRef="Sequence_16">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1114" sap2010:WorkflowViewState.IdRef="Sequence_16">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  login:username'" sap:VirtualizedContainerService.HintSize="382,187" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="videowall">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  login:username'" sap:VirtualizedContainerService.HintSize="354,187" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="videowall">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9bd4c051-acdc-4480-937e-4c6f827f253a" InformativeScreenshot="3fcbe6f0b8cfd888feb9b1bf76fb67c1" Selector="&lt;webctrl tag='INPUT' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;input' parentid='login' parentname='login' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -257,7 +257,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'INPUT  login:password'" sap:VirtualizedContainerService.HintSize="382,187" sap2010:WorkflowViewState.IdRef="TypeInto_4" Text="Altan.2025">
+              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'INPUT  login:password'" sap:VirtualizedContainerService.HintSize="354,187" sap2010:WorkflowViewState.IdRef="TypeInto_4" Text="Altan.2025">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d9f74d5e-4107-4efb-8385-b2f5358a3e88" InformativeScreenshot="8a6e471e63b3e36eeab1f824aed3dfd2" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -269,7 +269,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:loginButton'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  login:loginButton'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -291,13 +291,13 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="382,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
-              <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
+              <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
                 <ui:UiElementExists.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a3989ff4-fc11-4f7a-b2fd-cca873956d7a" InformativeScreenshot="fcb0bbed1d9b5fe060ad9826ff4fcc56" Selector="&lt;webctrl tag='INPUT' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
                 </ui:UiElementExists.Target>
               </ui:UiElementExists>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="382,139" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'INPUT  login:legalPanel...'" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -316,7 +316,7 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="Delay_4" />
             </Sequence>
           </ActivityAction>
         </ui:OpenBrowser.Body>
@@ -335,7 +335,7 @@
       </ui:InvokeWorkflowFile>
       <ui:CloseApplication DisplayName="Close Application 'DIV  calypso-container'" sap:VirtualizedContainerService.HintSize="467,139" sap2010:WorkflowViewState.IdRef="CloseApplication_2">
         <ui:CloseApplication.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ff9a0699-860f-4310-86e2-50c2488581ff" InformativeScreenshot="9f62a689bc13bd17969307d2b17a5513" Selector="&lt;html app='msedge.exe' title='NetAct™ Start Page*' /&gt;&lt;webctrl tag='DIV' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ff9a0699-860f-4310-86e2-50c2488581ff" InformativeScreenshot="9f62a689bc13bd17969307d2b17a5513" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Performance Manager+ - osnme001 - videowall y 1 página más - Tra*' /&gt;&lt;ctrl name='Performance Manager+ - osnme001 - videowall: Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Cerrar' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -345,7 +345,7 @@
           </ui:Target>
         </ui:CloseApplication.Target>
       </ui:CloseApplication>
-      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="467,156" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="firefox" />
+      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="467,156" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="msedge" />
     </Sequence>
   </Sequence>
 </Activity>

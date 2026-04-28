@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1410.4,5844</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2433,3065</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Nokia_Reporting_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -81,7 +81,7 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Nokia_Reporting" sap:VirtualizedContainerService.HintSize="1540,2879" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Nokia_Reporting" sap:VirtualizedContainerService.HintSize="654,3000" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="salida" />
       <Variable x:TypeArguments="x:String" Name="TipoReporte" />
@@ -91,13 +91,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'firefox.exe NetAct™'" sap:VirtualizedContainerService.HintSize="536,2856" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="d2b31451c2c7105bf8e844ce6126562d" Selector="&lt;html app='msedge.exe' title='NetAct*' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser 'firefox.exe NetAct™'" sap:VirtualizedContainerService.HintSize="592,2912" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="d2b31451c2c7105bf8e844ce6126562d" Selector="&lt;html app='msedge.exe' title='* - osnme001 - videowall' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="502,2686" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="558,2742" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Name="counter" />
             </Sequence.Variables>
@@ -107,7 +107,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'Reporting'" sap:VirtualizedContainerService.HintSize="468,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'Reporting'" sap:VirtualizedContainerService.HintSize="496,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -129,7 +129,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'Performance Manager'" sap:VirtualizedContainerService.HintSize="468,139" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+            <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DisplayName="Click 'Performance Manager'" sap:VirtualizedContainerService.HintSize="496,139" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
               <ui:Click.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -151,8 +151,8 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="468,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <Sequence DisplayName="Descarga MT V02" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="496,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <Sequence DisplayName="Descarga MT V02" sap:VirtualizedContainerService.HintSize="496,57" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -585,7 +585,7 @@
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
             </Sequence>
-            <Sequence DisplayName="Descargar Capacity" sap:VirtualizedContainerService.HintSize="468,2169" sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <Sequence DisplayName="Descargar Capacity" sap:VirtualizedContainerService.HintSize="496,2197" sap2010:WorkflowViewState.IdRef="Sequence_20">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
